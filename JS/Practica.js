@@ -4,8 +4,11 @@ window.onload=function(){
 			canvas = document.getElementById('canvas');
 			ctx = canvas.getContext('2d');
 			FPS = 30;
-
-
+            canvas.width = 600;
+            canvas.height = 300;
+            canvas.style.width = '99%';
+            canvas.style.display = 'block';
+            canvas.style.margin = 'auto';
 			//---------------Objetos---------------------//
 			var jugador;
 			var bola;
@@ -145,7 +148,7 @@ window.onload=function(){
 			function teclado(tecla){
 				if (tecla.keyCode == 87){arriba()}
 				if (tecla.keyCode == 83){abajo()}
-				if (tecla.keyCode == 65){location.href = "../Menu.html"}
+				if (tecla.keyCode == 65 || tecla.keyCode == 8 || tecla.keyCode == 37){location.href = "../index.html"}
 			}
 
 			//logicaBola

@@ -3,18 +3,11 @@
 	padding: 0px;
 	background: black;
 }
-
 canvas{
 	background-color: black;
-	margin: 50px 20% 10px 20%;
+	margin: 0px 0px 0px 0px;
 	border: 1px solid white;
 }
-
-h1{
-	color: white;
-	float: left;
-}
-
 #titulo{
 	margin-left: 44%;
 }
